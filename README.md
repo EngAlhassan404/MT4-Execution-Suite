@@ -32,7 +32,7 @@ This suite offers an integrated solution to these problems through four highly e
 The primary execution tool for opening a large number of trades with a single click.
 
 **Performance Report (Successful Execution Example):**
-![Opener Performance](Documentation/MT4_Execution_Suite_Opener.png)
+![Opener Performance](MQL4/Documentation/MT4_Execution_Suite_Opener.png)
 This image shows the performance report after successfully executing **100 Sell trades**. The report displays all vital statistics, including the first and last trade prices, the average entry price, and the price drift.
 
 * **Execution Speed Analysis:**
@@ -40,20 +40,20 @@ This image shows the performance report after successfully executing **100 Sell 
     * **Performance Rate:** An execution rate of up to **3.25 trades per second** (or ~195 trades per minute).
 
 **Intelligent Reporting & Safety Feature (Partial Execution Example):**
-![Opener Stop Reason](Documentation/MT4_Execution_Suite_Opener_Stop Reason.png)
+![Opener Stop Reason](MQL4/Documentation/MT4_Execution_Suite_Opener_Stop Reason.png)
 This image demonstrates the script's most critical feature: **intelligent reporting**. Here, the script attempted to open 100 trades but automatically stopped after opening only **14**. The report explicitly states the **Stop Reason**: the free margin reached the safety limit defined in the settings. This feature protects the user from excessive risk and provides full transparency.
 
 
 ### 2. The Counter Script (MT4_Execution_Suite_Counter.mq4)
 A monitoring tool for accurately analyzing the account's current state using advanced filters.
 
-![Counter Performance](Documentation/MT4_Execution_Suite_Counter.png)
+![Counter Performance](MQL4/Documentation/MT4_Execution_Suite_Counter.png)
 This image showcases the Counter script's ability to analyze open positions. In this example, the combined filters were used to count **all open trades** (Buys & Sells, Profitable & Losing) for the EURUSD symbol, resulting in a total of **100 trades**. This tool is perfect for getting a quick and precise overview of total market exposure.
 
 ### 3. The Closer Script (MT4_Execution_Suite_Closer.mq4)
 A powerful tool for closing trades in bulk based on specific rules (close all, profitable only, losing only, etc.).
 
-![Closer Performance](Documentation/MT4_Execution_Suite_Closer.png)
+![Closer Performance](MQL4/Documentation/MT4_Execution_Suite_Closer.png)
 This image displays the performance report after successfully closing **100 trades**. The report provides a comprehensive summary of the operation, including the total realized P/L, price movement during execution, and total time.
 
 * **Execution Speed Analysis:**
@@ -64,10 +64,10 @@ This image displays the performance report after successfully closing **100 trad
 A simple utility to remove visual clutter from the chart, providing a clean slate for analysis.
 
 **Before running the script:** The chart is cluttered with graphical objects (arrows, dots) left behind by indicators, making analysis difficult.
-![Chart Before Cleaner](Documentation/Before_MT4_Execution_Suite_Cleaner.png)
+![Chart Before Cleaner](MQL4/Documentation/Before_MT4_Execution_Suite_Cleaner.png)
 
 **After running the script:** With a single click, the script removes all unwanted objects, leaving a clean chart ready for clear analysis.
-![Chart After Cleaner](Documentation/After_MT4_Execution_Suite_Cleaner.png)
+![Chart After Cleaner](MQL4/Documentation/After_MT4_Execution_Suite_Cleaner.png)
 
 ---
 ## Key Features of the Suite
