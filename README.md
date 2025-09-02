@@ -40,7 +40,7 @@ This image shows the performance report after successfully executing **100 Sell 
     * **Performance Rate:** An execution rate of up to **3.25 trades per second** (or ~195 trades per minute).
 
 **Intelligent Reporting & Safety Feature (Partial Execution Example):**
-![Opener Stop Reason](Documentation/MT4_Execution_Suite_Opener_Stop_Reason.png)
+![Opener Stop Reason](Documentation/MT4_Execution_Suite_Opener_Stop Reason.png)
 This image demonstrates the script's most critical feature: **intelligent reporting**. Here, the script attempted to open 100 trades but automatically stopped after opening only **14**. The report explicitly states the **Stop Reason**: the free margin reached the safety limit defined in the settings. This feature protects the user from excessive risk and provides full transparency.
 
 
